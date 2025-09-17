@@ -35,7 +35,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "nimaisya-gina-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://nimaisya-gina-ransfanclub.pbp.cs.ui.ac.id"
+    "https://nimaisya-gina-footballnews.pbp.cs.ui.ac.id",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
 ]
 
 # Application definition
